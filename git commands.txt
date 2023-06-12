@@ -1,0 +1,26 @@
+git config --global user.name <name>
+git config --global user.email <email>
+code . //vscode 
+git status
+git add . //filename
+git init //empty repo
+touch <filename> //creates a file
+git commit > i > commit naem > esc > :wq .
+git commit -m "commit name"
+git commit -a -m "commit name" //skip staging area 
+git checkout <filename> //calls last commit
+git checkout -f
+git log //status of all commits
+git log -1 //status of last commit
+git log -p -1 //with what changes
+git diff //check the changed things
+git rm --cached <filename> //remove from staging area
+git rm <filename> //delete file
+//.gitignore
+git branch <branch_name>
+git checkout <branch_name> //changes branch
+git merge <branch_name>
+git checkout -b <branch_name> //create and switch 
+git  remote add origin <link> //link as mentioned in your github repo
+git remote -v //list all
+git push origin master //pushed on github
